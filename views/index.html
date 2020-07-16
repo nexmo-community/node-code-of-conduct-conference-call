@@ -1,0 +1,13 @@
+<h1>Recordings</h1>
+
+{% for recording in recordings %}
+  <p>
+    <a href="/details/{{recording.conversation_uuid}}">{{recording.start_time}}</a>
+  </p>
+{% endfor %}
+
+<h1>Messages</h1>
+
+{% for message in messages %}
+  <p>{{message.msisdn}} ({{message['message-timestamp']}}): {{message.text}}</p>
+{% endfor %}

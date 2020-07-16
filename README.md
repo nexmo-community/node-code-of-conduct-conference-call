@@ -1,8 +1,8 @@
 ![Vonage](.github/vonage.png)
 
-# Project Title
+# Code of Conduct Incident Response Conference Call Line
 
-Project Description
+Community members can call a virtual number, which then starts a conference call with organizers. SMS messages also get forwarded.
 
 ## Code of Conduct
 

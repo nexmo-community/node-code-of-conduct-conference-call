@@ -1,0 +1,29 @@
+{
+  "name": "blog-node-coc-conf",
+  "version": "1.0.0",
+  "description": "![Vonage](.github/vonage.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexmo-community/node-code-of-conduct-conference-call.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nexmo-community/node-code-of-conduct-conference-call/issues"
+  },
+  "homepage": "https://github.com/nexmo-community/node-code-of-conduct-conference-call#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nedb-promises": "^4.0.3",
+    "nexmo": "^2.7.0-beta-1",
+    "nunjucks": "^3.2.1",
+    "uuid": "^8.2.0"
+  }
+}
