@@ -27,7 +27,7 @@ app.get('/answer', async (req, res) => {
 
   for(let organizerNumber of organizerNumbers) {
     nexmo.calls.create({
-      to: [{ type: 'phone', organizerNumber }],
+      to: [{ type: 'phone', number: organizerNumber }],
       from: { type: 'phone', number: process.env.NEXMO_NUMBER },
       ncco: [
         { action: 'conversation', name: conferenceId }
